@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-// Function prototypes
 void encryptText();
 void decryptText();
 
