@@ -64,7 +64,7 @@ void decryptText() {
 
     printf("\nEnter cipher text: ");
     fgets(cipherText, sizeof(cipherText), stdin);
-    cipherText[strcspn(cipherText, "\n")] = '\0'; // Remove newline character
+    cipherText[strcspn(cipherText, "\n")] = '\0'; 
 
     printf("Enter key: ");
     scanf("%d", &key);
